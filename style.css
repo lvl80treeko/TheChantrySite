@@ -1,0 +1,63 @@
+body {
+    background-image: url("img/background.jpg");
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#message {
+    border-style: double; 
+    border-color: white; 
+    border-radius: 50px;
+    background-color: rgb(107, 18, 107);
+    margin: 50px 500px 50px 500px;
+}
+
+#message p{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    color: white;
+    margin-left: 10px;
+    text-align: center;
+}
+
+#main-text-body {
+    border-style: double; 
+    border-color: white; 
+    border-radius: 20px;
+    background-color: rgb(107, 18, 107);
+    margin: 20px 500px 100px 500px;
+    background-image: url("img/stransfondo2.gif");
+}
+
+#main-text-body h1, p{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: justify;
+    color: white;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+#table-directory th, p {
+    color: white;
+    font-size: 24px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+#table-directory button {
+    border: none;
+    padding: 15px 32px;
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    font-size: 24px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: transparent;
+    border-color: transparent;
+    margin: 4px 2px;
+    cursor: pointer;
+}
